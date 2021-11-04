@@ -38,7 +38,7 @@ function initPage() {
         axios.get(UVQueryURL)
         .then(function(response){
             let UVIndex = document.createElement("span");
-            UVIndex.setAttribute("class","badge badge-danger");
+            UVIndex.setAttribute("class","badge bg-danger");
             UVIndex.innerHTML = response.data[0].value;
             currentUVEl.innerHTML = "UV Index: ";
             currentUVEl.append(UVIndex);
@@ -115,7 +115,6 @@ function initPage() {
         getWeather(searchHistory[searchHistory.length - 1]);
     }
 
-    
 
 }
 initPage();
