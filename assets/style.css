@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+body {
+    background: url('./davies-designs-studio-G-6kwVnClsE-unsplash.jpg') no-repeat;
+    font-family: 'Roboto';
+}
+
+
+.btn {
+    background-color: rgba(2, 61, 112, 0.619);
+    color: white;
+}
+
+.forecast {
+    background-color: rgba(2, 76, 150, 0.39);
+    color: white;
+    
+}
+
+
+.display-city {
+    background-color:rgba(2, 76, 150, 0.39);
+    color: white;
+}
+
+
+
+
+
+
+
